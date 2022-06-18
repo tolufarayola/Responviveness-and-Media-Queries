@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @font-face {
+    font-family: Poppins;
+    src: url(https://fonts.google.com/specimen/Poppins);
+  }
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  background-image: url(bg-intro-desktop.png);
+  width: 80%;
+  margin: auto;
+  display: grid;
+  background-color: hsl(0, 100%, 74%);
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left {
+  color: white;
+  margin-top: 10px;
+  margin-left: 120px;
+  margin-right: 40px;
+}
+
+h1 {
+  font-family: Poppins;
+  font-size: 37px;
+  margin-bottom: 25px;
+  line-height: 40px;
+}
+
+.form {
+  font-family: Poppins;
+  background-color: white;
+  width: 95%;
+  height: 55vh;
+  border-radius: 5px;
+}
+
+.p-one {
+  font-family: Poppins;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.right {
+  margin-right: 90px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  font-family: Poppins;
+  width: 85%;
+  padding: 12px 15px;
+  border: 1px bold gray;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 20px;
+  resize: vertical;
+  display: inline-block;
+}
+
+.top-button {
+  width: 430px;
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  font-weight: 5;
+  padding: 18px 25px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 5px 5px rgba(209, 208, 208, 0.952);
+}
+
+.bottom-button {
+  width: 85%;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 5;
+  padding: 12px 25px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  margin-right: 25px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.try {
+  font-family: Poppins;
+  font-weight: 1000;
+  font-size: 12px;
+}
+
+.p-two {
+  color: gray;
+  text-align: center;
+  font-size: 9px;
+}
+
+.terms {
+  color: red;
+  font-weight: 1000;
+}
